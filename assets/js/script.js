@@ -114,6 +114,7 @@ var editTask = function(taskId) {
     document.querySelector("#save-task").textContent = "Save Task";
     formEl.setAttribute("data-task-id", taskId);
 }
+
 var completeEditTask = function(taskName, taskType, taskId) {
     //find the matching task list item
     var taskSelected = document.querySelector(".task-item[data-task-id='" + taskId + "']");
